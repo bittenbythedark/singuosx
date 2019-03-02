@@ -1473,7 +1473,7 @@ void do_assert_glerror()
 	BOOL quit = FALSE;
 	while (LL_UNLIKELY(error))
 	{
-		quit = TRUE;
+		quit = FALSE;
 		
 		std::string gl_error_msg = getGLErrorString(error);
 		LL_WARNS("RenderState") << "GL Error: 0x" << std::hex << error << std::dec << LL_ENDL;		

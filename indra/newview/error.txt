@@ -1,0 +1,689 @@
+User defaults from command line:
+     DADDRESS_SIZE = 64
+ 
+ Prepare build
+ note: Using legacy build system
+ 
+ === BUILD AGGREGATE TARGET ZERO_CHECK OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ PhaseScriptExecution CMake\ Rules /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/Singularity.build/Release/ZERO_CHECK.build/Script-825142BE9454488FB339F6FC.sh
+     cd /Users/bittenbythedark/git/AIKill/indra
+     /bin/sh -c /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/Singularity.build/Release/ZERO_CHECK.build/Script-825142BE9454488FB339F6FC.sh
+ echo ""
+ 
+ make -f /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/CMakeScripts/ReRunCMake.make
+ make[1]: `/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/CMakeFiles/cmake.check_cache' is up to date.
+ 
+ === BUILD TARGET cmake OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llaudio OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llcharacter OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD AGGREGATE TARGET stage_third_party_libs OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ PhaseScriptExecution CMake\ Rules /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/llcommon/Singularity.build/Release/stage_third_party_libs.build/Script-E0F4601720124A428BC93D3B.sh
+     cd /Users/bittenbythedark/git/AIKill/indra
+     /bin/sh -c /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/llcommon/Singularity.build/Release/stage_third_party_libs.build/Script-E0F4601720124A428BC93D3B.sh
+ make: Nothing to be done for `all'.
+ 
+ === BUILD TARGET llcommon OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llcorehttp OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llimage OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llinventory OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llmath OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llvfs OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llmessage OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llwindow OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llxml OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llrender OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llappearance OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET hacd OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET nd_hacdConvexDecomposition OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET nd_Pathing OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llimagej2coj OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llprimitive OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llcrashlogger OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET llplugin OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET AlchemyPlugin OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ PhaseScriptExecution CMake\ PostBuild\ Rules /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/llplugin/slplugin/Singularity.build/Release/AlchemyPlugin.build/Script-4DDBC171512A4DA5A5D7B236.sh
+     cd /Users/bittenbythedark/git/AIKill/indra
+     /bin/sh -c /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/llplugin/slplugin/Singularity.build/Release/AlchemyPlugin.build/Script-4DDBC171512A4DA5A5D7B236.sh
+ mkdir -p /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/llplugin/slplugin/Release/AlchemyPlugin.app/Contents/Resources
+ 
+ === BUILD TARGET llui OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET media_plugin_base OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ === BUILD TARGET media_plugin_cef OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ PhaseScriptExecution CMake\ PostBuild\ Rules /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/media_plugins/cef/Singularity.build/Release/media_plugin_cef.build/Script-81FEBFE8D22E4CC7AE274EB8.sh
+     cd /Users/bittenbythedark/git/AIKill/indra
+     /bin/sh -c /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/media_plugins/cef/Singularity.build/Release/media_plugin_cef.build/Script-81FEBFE8D22E4CC7AE274EB8.sh
+ echo "Creating symlinks"
+ Creating symlinks
+ /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/media_plugins/cef/Release/media_plugin_cef.dylib /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/media_plugins/cef/Release/media_plugin_cef.dylib /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/media_plugins/cef/Release/media_plugin_cef.dylib
+ 
+ === BUILD TARGET mac-crash-logger OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ PhaseScriptExecution CMake\ PostBuild\ Rules /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Singularity.build/Release/mac-crash-logger.build/Script-59EC5BE17FA44130960DBFAA.sh
+     cd /Users/bittenbythedark/git/AIKill/indra
+     /bin/sh -c /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Singularity.build/Release/mac-crash-logger.build/Script-59EC5BE17FA44130960DBFAA.sh
+ /Applications/CMake.app/Contents/bin/cmake -E copy_if_different /Users/bittenbythedark/git/AIKill/indra/mac_crash_logger/CrashReporter.nib /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Release/mac-crash-logger.app/Contents/Resources/CrashReporter.nib
+ /Applications/CMake.app/Contents/bin/cmake -DBIN_NAME="/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Release/mac-crash-logger.app/Contents/MacOS/mac-crash-logger" -DSEARCH_DIRS="/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/sharedlibs/Release/Resources;/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/sharedlibs/Release/Resources;/usr/lib" -DDST_PATH="/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Release/mac-crash-logger.app/Contents/MacOS/../Resources" -P /Users/bittenbythedark/git/AIKill/indra/cmake/DeploySharedLibs.cmake
+ -- Getting recursive dependencies for file: /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Release/mac-crash-logger.app/Contents/MacOS/mac-crash-logger
+ -- Processing dependency: @executable_path/../Resources/libapr-1.0.dylib
+ -- Processing dependency: @executable_path/../Resources/libaprutil-1.0.dylib
+ -- Processing dependency: @executable_path/../Resources/libexception_handler.dylib
+ -- Copying /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/sharedlibs/Release/Resources/libapr-1.0.dylib to /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Release/mac-crash-logger.app/Contents/MacOS/../Resources/libapr-1.0.dylib
+ -- Copying /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/sharedlibs/Release/Resources/libaprutil-1.0.dylib to /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Release/mac-crash-logger.app/Contents/MacOS/../Resources/libaprutil-1.0.dylib
+ -- Copying /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/sharedlibs/Release/Resources/libexception_handler.dylib to /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/mac_crash_logger/Release/mac-crash-logger.app/Contents/MacOS/../Resources/libexception_handler.dylib
+ 
+ === BUILD AGGREGATE TARGET generate_viewer_version OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ 
+ PhaseScriptExecution CMake\ Rules /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/generate_viewer_version.build/Script-2D0347CAADD140FBBC911DE6.sh
+     cd /Users/bittenbythedark/git/AIKill/indra
+     /bin/sh -c /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/generate_viewer_version.build/Script-2D0347CAADD140FBBC911DE6.sh
+ echo "Generating viewer_version.txt for manifest processing"
+ Generating viewer_version.txt for manifest processing
+ cmake -E echo 1.8.7.7371 > /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/viewer_version.txt
+ cmake -E echo {"Type":"viewer","Version":"1.8.7.7371"} > /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/summary.json
+ 
+ === BUILD TARGET singularity-bin OF PROJECT Singularity WITH CONFIGURATION Release ===
+ 
+ Check dependencies
+ Warning: Multiple build commands for output file /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Release/singularity-bin.app/Contents/Resources/language.txt
+ Warning: Multiple build commands for output file /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Release/singularity-bin.app/Contents/Resources/language.txt
+ Warning: Multiple build commands for output file /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Release/singularity-bin.app/Contents/Resources/language.txt
+ 
+ PhaseScriptExecution CMake\ Rules /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-D02ABD2EB2304560A900117B.sh
+     cd /Users/bittenbythedark/git/AIKill/indra
+     /bin/sh -c /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-D02ABD2EB2304560A900117B.sh
+ make: Nothing to be done for `all'.
+ 
+ CompileC /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Objects-normal/x86_64/pipeline.o newview/pipeline.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+     cd /Users/bittenbythedark/git/AIKill/indra
+     export LANG=en_US.US-ASCII
+     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++14 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Release\" -DLL_DARWIN=1 -DLL_GL_CORE=3.2 -DOPENSSL_API_COMPAT=0x10100000L -DGLM_FORCE_CTOR_INIT=1 -DENABLE_CLASSIC_CLOUDS=1 -DLIBXML_STATIC -DLIB_NDOF=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fasm-blocks -fno-strict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -msse4.1 -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Release/include -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include/ndofdev -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include/zlib -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include/glod -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include/libxml2 -I/Users/bittenbythedark/git/AIKill/indra/llaudio -I/Users/bittenbythedark/git/AIKill/indra/llcharacter -I/Users/bittenbythedark/git/AIKill/indra/llcommon -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/llcommon/generated -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include/apr-1 -I/Users/bittenbythedark/git/AIKill/indra/llcorehttp -I/Users/bittenbythedark/git/AIKill/indra/libndhacd -I/Users/bittenbythedark/git/AIKill/indra/libpathing -I/Users/bittenbythedark/git/AIKill/indra/llimage -I/Users/bittenbythedark/git/AIKill/indra/llinventory -I/Users/bittenbythedark/git/AIKill/indra/llmath -I/Users/bittenbythedark/git/AIKill/indra/llmessage -I/Users/bittenbythedark/git/AIKill/indra/llplugin -I/Users/bittenbythedark/git/AIKill/indra/llprimitive -I/Users/bittenbythedark/git/AIKill/indra/llrender -I/Users/bittenbythedark/git/AIKill/indra/llui -I/Users/bittenbythedark/git/AIKill/indra/llvfs -I/Users/bittenbythedark/git/AIKill/indra/llwindow -I/Users/bittenbythedark/git/AIKill/indra/llxml -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include/hunspell -I/Users/bittenbythedark/git/AIKill/indra/llappearance -I/Users/bittenbythedark/git/AIKill/indra/newview -isystem /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include -isystem /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include/collada -isystem /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/packages/include/collada/1.4 -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/DerivedSources/x86_64 -I/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Release -m64 -DLL_RELEASE=1 -DLL_RELEASE_FOR_DOWNLOAD=1 -DNDEBUG -std=gnu++14 -URELEASE_SHOW_ASSERT -ULL_USE_TCMALLOC -MMD -MT dependencies -MF /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Objects-normal/x86_64/pipeline.d --serialize-diagnostics /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Objects-normal/x86_64/pipeline.dia -c /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp -o /Users/bittenbythedark/git/AIKill/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Objects-normal/x86_64/pipeline.o
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:35:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llspatialpartition.h:38:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/lldrawable.h:47:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerobject.h:39:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llhudtext.h:59:4: warning: field 'mText' will be initialized after field 'mFont' [-Wreorder]
+                         mText(text),
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:38:
+ /Users/bittenbythedark/git/AIKill/indra/llaudio/llaudioengine.h:517:40: warning: field 'mReviewedCollision' will be initialized after field 'mTimeStarted' [-Wreorder]
+                         mIsLooped(false), mReviewed(false), mReviewedCollision(false),
+                                                             ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:156:19: warning: 'initFromXML' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ void        initFromXML(LLXMLNodePtr node, LLView* parent);
+                                 ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:43:
+ /Users/bittenbythedark/git/AIKill/indra/llui/llview.h:472:15: note: overridden virtual function is here
+         virtual void initFromXML(LLXMLNodePtr node, LLView* parent);
+                      ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:157:27: warning: 'getXML' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ LLXMLNodePtr getXML(bool save_children = true) const;
+                                  ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:43:
+ /Users/bittenbythedark/git/AIKill/indra/llui/llview.h:469:23: note: overridden virtual function is here
+         virtual LLXMLNodePtr getXML(bool save_children = true) const;
+                              ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:185:15: warning: 'setTentative' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         virtual void    setTentative(BOOL b);
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:43:
+ /Users/bittenbythedark/git/AIKill/indra/llui/llview.h:366:15: note: overridden virtual function is here
+         virtual void    setTentative(BOOL b);
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:186:15: warning: 'getTentative' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         virtual BOOL    getTentative() const;
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:43:
+ /Users/bittenbythedark/git/AIKill/indra/llui/llview.h:367:15: note: overridden virtual function is here
+         virtual BOOL    getTentative() const;
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:187:15: warning: 'setValue' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         virtual void    setValue(const LLSD& value);
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:43:
+ /Users/bittenbythedark/git/AIKill/indra/llui/llview.h:514:15: note: overridden virtual function is here
+         virtual void    setValue(const LLSD& value);
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:188:15: warning: 'getValue' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         virtual LLSD    getValue() const;
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:43:
+ /Users/bittenbythedark/git/AIKill/indra/llui/llview.h:515:15: note: overridden virtual function is here
+         virtual LLSD    getValue() const;
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:43:
+ /Users/bittenbythedark/git/AIKill/indra/llui/llnotifications.h:326:4: warning: field 'mTemporaryResponder' will be initialized after field 'payload' [-Wreorder]
+                         mTemporaryResponder(false),
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/llui/llnotifications.h:806:19: warning: 'initSingleton' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ void initSingleton();
+                          ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerprecompiledheaders.h:74:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llcommon/llsys.h:40:
+ /Users/bittenbythedark/git/AIKill/indra/llcommon/llsingleton.h:122:18: note: overridden virtual function is here
+     virtual void initSingleton() {}
+                  ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:72:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llhudnametag.h:61:4: warning: field 'mText' will be initialized after field 'mFont' [-Wreorder]
+                         mText(text),
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:77:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llselectmgr.h:434:15: warning: 'duplicate' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         virtual void duplicate();
+                      ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:41:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lllineeditor.h:48:
+ /Users/bittenbythedark/git/AIKill/indra/llui/lleditmenuhandler.h:68:15: note: overridden virtual function is here
+         virtual void    duplicate() {};
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:77:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llselectmgr.h:435:15: warning: 'canDuplicate' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         virtual BOOL canDuplicate() const;
+                      ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:41:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lllineeditor.h:48:
+ /Users/bittenbythedark/git/AIKill/indra/llui/lleditmenuhandler.h:69:15: note: overridden virtual function is here
+         virtual BOOL    canDuplicate() const { return FALSE; }
+                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:81:
+ /Users/bittenbythedark/git/AIKill/indra/newview/lltoolmgr.h:98:32: warning: field 'mSelectedTool' will be initialized after field 'mName' [-Wreorder]
+         LLToolset(const char* name) : mSelectedTool(NULL), mName(name), mIsShowFloaterTools(true) {}
+                                       ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:83:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewermediafocus.h:32:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llviewermedia.h:326:19: warning: 'isView' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ BOOL isView() const { return FALSE; };
+                          ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:68:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llfloatertelehub.h:37:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llfloater.h:40:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llpanel.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/lluictrl.h:43:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llui/llview.h:44:
+ /Users/bittenbythedark/git/AIKill/indra/llwindow/llmousehandler.h:74:15: note: overridden virtual function is here
+         virtual BOOL isView() const = 0;
+                      ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:86:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerobjectlist.h:47:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llvoavatar.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/llavatarappearance.h:32:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/llavatarjointmesh.h:32:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/llpolymesh.h:35:
+ /Users/bittenbythedark/git/AIKill/indra/llappearance/llpolymorph.h:174:28: warning: 'getTypeString' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ char const*                 getTypeString(void) const { return "param_morph"; }
+                                                 ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:57:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llagent.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llcharacter/llcharacter.h:35:
+ /Users/bittenbythedark/git/AIKill/indra/llcharacter/llvisualparam.h:181:23: note: overridden virtual function is here
+         virtual char const*             getTypeString(void) const = 0;
+                                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:86:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerobjectlist.h:47:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llvoavatar.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/llavatarappearance.h:33:
+ /Users/bittenbythedark/git/AIKill/indra/llappearance/lldriverparam.h:124:28: warning: 'getTypeString' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ char const*                 getTypeString(void) const { return "param_driver"; }
+                                                 ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:57:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llagent.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llcharacter/llcharacter.h:35:
+ /Users/bittenbythedark/git/AIKill/indra/llcharacter/llvisualparam.h:181:23: note: overridden virtual function is here
+         virtual char const*             getTypeString(void) const = 0;
+                                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:86:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerobjectlist.h:47:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llvoavatar.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/llavatarappearance.h:34:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/lltexlayer.h:34:
+ /Users/bittenbythedark/git/AIKill/indra/llappearance/lltexlayerparams.h:91:26: warning: 'getTypeString' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ char const* getTypeString(void) const { return "param_alpha"; }
+                                 ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:57:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llagent.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llcharacter/llcharacter.h:35:
+ /Users/bittenbythedark/git/AIKill/indra/llcharacter/llvisualparam.h:181:23: note: overridden virtual function is here
+         virtual char const*             getTypeString(void) const = 0;
+                                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:86:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerobjectlist.h:47:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llvoavatar.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/llavatarappearance.h:34:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/lltexlayer.h:34:
+ /Users/bittenbythedark/git/AIKill/indra/llappearance/lltexlayerparams.h:188:26: warning: 'getTypeString' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ char const* getTypeString(void) const { return "param_color"; }
+                                 ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:57:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llagent.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llcharacter/llcharacter.h:35:
+ /Users/bittenbythedark/git/AIKill/indra/llcharacter/llvisualparam.h:181:23: note: overridden virtual function is here
+         virtual char const*             getTypeString(void) const = 0;
+                                         ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:86:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerobjectlist.h:47:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llvoavatar.h:43:
+ /Users/bittenbythedark/git/AIKill/indra/llappearance/lltexglobalcolor.h:79:19: warning: 'onGlobalColorChanged' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ void onGlobalColorChanged(bool upload_bake = false);
+                          ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:86:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerobjectlist.h:47:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llvoavatar.h:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/llavatarappearance.h:34:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llappearance/lltexlayer.h:34:
+ /Users/bittenbythedark/git/AIKill/indra/llappearance/lltexlayerparams.h:205:15: note: overridden virtual function is here
+         virtual void onGlobalColorChanged(bool upload_bake = false) {}
+                      ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:95:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llvovolume.h:157:23: warning: 'getWorldMatrix' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+                                 const LLMatrix4a& getWorldMatrix(LLXformMatrix* xform) const;
+                                                   ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:35:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.h:39:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llspatialpartition.h:38:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/lldrawable.h:47:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llviewerobject.h:323:28: note: overridden virtual function is here
+         virtual const LLMatrix4a& getWorldMatrix(LLXformMatrix* xform) const            { return xform->getWorldMatrix(); }
+                                   ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:106:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llwlparammanager.h:38:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llenvmanager.h:56:3: warning: field 'mSkyMap' will be initialized after field 'mWaterParams' [-Wreorder]
+                 mSkyMap(LLSD::emptyMap()),
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llenvmanager.h:62:3: warning: field 'mSkyMap' will be initialized after field 'mWaterParams' [-Wreorder]
+                 mSkyMap(skyMap),
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llenvmanager.h:233:19: warning: 'initSingleton' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ void initSingleton();
+                          ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerprecompiledheaders.h:74:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llcommon/llsys.h:40:
+ /Users/bittenbythedark/git/AIKill/indra/llcommon/llsingleton.h:122:18: note: overridden virtual function is here
+     virtual void initSingleton() {}
+                  ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:106:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llwlparammanager.h:336:19: warning: 'initSingleton' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ void initSingleton();
+                          ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerprecompiledheaders.h:74:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llcommon/llsys.h:40:
+ /Users/bittenbythedark/git/AIKill/indra/llcommon/llsingleton.h:122:18: note: overridden virtual function is here
+     virtual void initSingleton() {}
+                  ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:107:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llwaterparammanager.h:347:19: warning: 'initSingleton' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+         /*virtual*/ void initSingleton();
+                          ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:33:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/llviewerprecompiledheaders.h:74:
+ In file included from /Users/bittenbythedark/git/AIKill/indra/llcommon/llsys.h:40:
+ /Users/bittenbythedark/git/AIKill/indra/llcommon/llsingleton.h:122:18: note: overridden virtual function is here
+     virtual void initSingleton() {}
+                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:785:13: warning: unused variable 'occlusion_divisor' [-Wunused-variable]
+                 const U32 occlusion_divisor = 3;
+                           ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:3621:21: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                 if (sUseOcclusion && 
+                     ~~~~~~~~~~~~~~^~
+ /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:3621:21: note: place parentheses around the '&&' expression to silence this warning
+                 if (sUseOcclusion && 
+                                   ^
+                     (
+ /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:4050:7: warning: unused variable 'use_fog' [-Wunused-variable]
+         BOOL use_fog = hasRenderDebugFeatureMask(LLPipeline::RENDER_DEBUG_FEATURE_FOG);
+              ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:6685:8: error: use of undeclared identifier 'GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS'
+                 case GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS:      //May not work on mac. Remove/ifdef if that's the case, for now. GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS missing from glext.h.
+                      ^
+ In file included from /Users/bittenbythedark/git/AIKill/indra/newview/pipeline.cpp:111:
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, unsigned char)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:494:3: note: in instantiation of function template specialization 'LLPanelFace::edit<unsigned char, unsigned char, &LLMaterial::setDiffuseAlphaMode>' requested here
+                 DEF_EDIT_MAT_STATE(U8,U8,setDiffuseAlphaMode);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, unsigned char)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:495:3: note: in instantiation of function template specialization 'LLPanelFace::edit<unsigned char, unsigned char, &LLMaterial::setAlphaMaskCutoff>' requested here
+                 DEF_EDIT_MAT_STATE(U8,U8,setAlphaMaskCutoff);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:497:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setNormalOffsetX>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setNormalOffsetX);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:498:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setNormalOffsetY>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setNormalOffsetY);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:499:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setNormalRepeatX>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setNormalRepeatX);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:500:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setNormalRepeatY>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setNormalRepeatY);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:501:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setNormalRotation>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setNormalRotation);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:503:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setSpecularOffsetX>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setSpecularOffsetX);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:504:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setSpecularOffsetY>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setSpecularOffsetY);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:505:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setSpecularRepeatX>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setSpecularRepeatX);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:506:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setSpecularRepeatY>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setSpecularRepeatY);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, float)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:507:3: note: in instantiation of function template specialization 'LLPanelFace::edit<float, float, &LLMaterial::setSpecularRotation>' requested here
+                 DEF_EDIT_MAT_STATE(F32,F32,setSpecularRotation);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, unsigned char)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:509:3: note: in instantiation of function template specialization 'LLPanelFace::edit<unsigned char, unsigned char, &LLMaterial::setEnvironmentIntensity>' requested here
+                 DEF_EDIT_MAT_STATE(U8,U8,setEnvironmentIntensity);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, unsigned char)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:510:3: note: in instantiation of function template specialization 'LLPanelFace::edit<unsigned char, unsigned char, &LLMaterial::setSpecularLightExponent>' requested here
+                 DEF_EDIT_MAT_STATE(U8,U8,setSpecularLightExponent);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, LLUUID)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:512:3: note: in instantiation of function template specialization 'LLPanelFace::edit<LLUUID, const LLUUID &, &LLMaterial::setNormalID>' requested here
+                 DEF_EDIT_MAT_STATE(LLUUID,const LLUUID&,setNormalID);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, LLUUID)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:513:3: note: in instantiation of function template specialization 'LLPanelFace::edit<LLUUID, const LLUUID &, &LLMaterial::setSpecularID>' requested here
+                 DEF_EDIT_MAT_STATE(LLUUID,const LLUUID&,setSpecularID);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:228:125: warning: field '_panel' will be initialized after field '_edit' [-Wreorder]
+                         LLSelectedTEEditMaterial(LLPanelFace* panel, LLMaterialEditFunctor< DataType, SetValueType, MaterialEditFunc >* editp) : _panel(panel), _edit(editp) {}
+                                                                                                                                                  ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:226:10: note: in instantiation of member function 'LLPanelFace::edit(LLPanelFace *, LLColor4U)::LLSelectedTEEditMaterial::LLSelectedTEEditMaterial' requested here
+                 struct LLSelectedTEEditMaterial : public LLSelectedTEMaterialFunctor
+                        ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:514:3: note: in instantiation of function template specialization 'LLPanelFace::edit<LLColor4U, const LLColor4U &, &LLMaterial::setSpecularLightColor>' requested here
+                 DEF_EDIT_MAT_STATE(LLColor4U,   const LLColor4U&,setSpecularLightColor);
+                 ^
+ /Users/bittenbythedark/git/AIKill/indra/newview/llpanelface.h:461:4: note: expanded from macro 'DEF_EDIT_MAT_STATE'
+                         edit< DataType, ReturnType, &LLMaterial::MaterialMemberFunc >(p,data);                                                                                                  \
+                         ^
+ 46 warnings and 1 error generated.
+ 
+ 

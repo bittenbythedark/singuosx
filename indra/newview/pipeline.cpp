@@ -29,7 +29,7 @@
  * COMPLETENESS OR PERFORMANCE.
  * $/LicenseInfo$
  */
-
+#include "OpenGL/OpenGL.h"
 #include "llviewerprecompiledheaders.h"
 
 #include "pipeline.h"
@@ -109,7 +109,6 @@
 #include "llmutelist.h"
 #include "llfloatertools.h"
 #include "llpanelface.h"
-
 // [RLVa:KB] - Checked: 2011-05-22 (RLVa-1.3.1a)
 #include "rlvhandler.h"
 #include "rlvlocks.h"
@@ -6671,7 +6670,7 @@ void apply_cube_face_rotation(U32 face)
 void validate_framebuffer_object()
 {                                                           
 	GLenum status;                                            
-	status = glCheckFramebufferStatus(GL_FRAMEBUFFER_EXT); 
+	status = glCheckFramebufferStatus(GL_FRAMEBUFFER); 
 	switch(status) 
 	{                                          
 		case GL_FRAMEBUFFER_COMPLETE:                       
@@ -6681,10 +6680,14 @@ void validate_framebuffer_object()
 			// frame buffer not OK: probably means unsupported depth buffer format
 			LL_ERRS() << "Framebuffer Incomplete Missing Attachment." << LL_ENDL;
 			break;
-		case GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS_EXT:	//May not work on mac. Remove/ifdef if that's the case, for now. GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS missing from glext.h.
+	
+	#if !LL_DARWIN
+		case GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS_OES:	//May not work on mac. Remove/ifdef if that's the case, for now. GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS missing from glext.h.
 			// frame buffer not OK: probably means unsupported depth buffer format
 			LL_ERRS() << "Framebuffer Incomplete Dimensions." << LL_ENDL;
 			break;
+	#endif
+	
 		case GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT:
 			// frame buffer not OK: probably means unsupported depth buffer format
 			LL_ERRS() << "Framebuffer Incomplete Attachment." << LL_ENDL;
@@ -7397,10 +7400,10 @@ void LLPipeline::bindDeferredShader(LLGLSLShader& shader, LLRenderTarget* diffus
 		}
 
 		stop_glerror();
-		
-		//glTexParameteri(LLTexUnit::getInternalType(mDeferredDepth.getUsage()), GL_TEXTURE_COMPARE_MODE, GL_NONE);		
-		//glTexParameteri(LLTexUnit::getInternalType(mDeferredDepth.getUsage()), GL_DEPTH_TEXTURE_MODE, GL_ALPHA);		
-
+	//	#if !LL_DARWIN
+		glTexParameteri(LLTexUnit::getInternalType(mDeferredDepth.getUsage()), GL_TEXTURE_COMPARE_MODE, GL_NONE);		
+		glTexParameteri(LLTexUnit::getInternalType(mDeferredDepth.getUsage()), GL_DEPTH_COMPONENT, GL_ALPHA);		
+//		#endif
 		stop_glerror();
 
 		LLMatrix4a inv_proj = glh_get_current_projection();
@@ -7450,9 +7453,12 @@ void LLPipeline::bindDeferredShader(LLGLSLShader& shader, LLRenderTarget* diffus
 			gGL.getTexUnit(channel)->setTextureFilteringOption(LLTexUnit::TFO_BILINEAR);
 			gGL.getTexUnit(channel)->setTextureAddressMode(LLTexUnit::TAM_CLAMP);
 			stop_glerror();
-			
-			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_COMPARE_MODE, GL_COMPARE_R_TO_TEXTURE);
+		//	#if !LL_DARWIN
+			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_COMPARE_MODE, GL_COMPARE_REF_TO_TEXTURE);
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_COMPARE_FUNC, GL_LEQUAL);
+			
+		//	#endif
+
 			stop_glerror();
 		}
 	}
@@ -7469,8 +7475,12 @@ void LLPipeline::bindDeferredShader(LLGLSLShader& shader, LLRenderTarget* diffus
 			gGL.getTexUnit(channel)->setTextureAddressMode(LLTexUnit::TAM_CLAMP);
 			stop_glerror();
 			
-			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_COMPARE_MODE, GL_COMPARE_R_TO_TEXTURE);
+		//	#if !LL_DARWIN
+		  	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_COMPARE_MODE, GL_COMPARE_REF_TO_TEXTURE);
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_COMPARE_FUNC, GL_LEQUAL);
+			
+		//	#endif
+				
 			stop_glerror();
 		}
 	}

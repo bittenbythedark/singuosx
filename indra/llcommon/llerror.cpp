@@ -251,13 +251,17 @@ namespace LLError
 	{
 #ifdef __GNUC__
 		// GCC: type_info::name() returns a mangled class name,st demangle
-        // passing nullptr, 0 forces allocation of a unique buffer we can free
-        // fixing MAINT-8724 on OSX 10.14
-		int status = -1;
-		char* name = abi::__cxa_demangle(mangled, nullptr, 0, &status);
-        std::string result(name ? name : mangled);
-        free(name);
-        return result;
+		int status;
+			// We don't use status, and shouldn't have to pass apointer to it
+			// but gcc 3.3 libstc++'s implementation of demangling is broken
+			// and fails without.
+
+		char* name = abi::__cxa_demangle(mangled, nullptr, nullptr, &status);
+
+		std::string ret = name ? name : mangled;
+		free(name); // We are responsible for freeing this buffer
+		return ret;
+
 #elif LL_WINDOWS
 		// DevStudio: type_info::name() includes the text "class " at the start
 
